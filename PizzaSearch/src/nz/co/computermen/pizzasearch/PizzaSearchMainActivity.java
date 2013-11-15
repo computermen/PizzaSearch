@@ -1,6 +1,5 @@
-package com.example.mysecondandroidproject;
+package nz.co.computermen.pizzasearch;
 
-import nz.co.computermen.pizzasearcher.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -9,7 +8,7 @@ import android.widget.CheckBox;
 import android.widget.TextView;
 import android.webkit.WebView;
 
-public class MainActivity extends Activity {
+public class PizzaSearchMainActivity extends Activity {
 	TextView textView;
 	CheckBox pepBox, cheeseBox;
 	WebView webView;
@@ -17,7 +16,7 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);
+		setContentView(R.layout.activity_pizzasearch_main);
 		
 		pepBox = (CheckBox) findViewById(R.id.checkBox1);
 		cheeseBox = (CheckBox) findViewById(R.id.checkBox2);
